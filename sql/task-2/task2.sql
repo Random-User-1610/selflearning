@@ -11,7 +11,7 @@ WHERE Department='sales';
 
 -- Apply the ORDER BY clause to sort the results (e.g., by LastName or Salary).
 SELECT * FROM Employees 
-ORDER BY LastName 
+ORDER BY LastName ;
 
 -- Experiment with multiple conditions using AND/OR.
 SELECT * FROM Employees 
