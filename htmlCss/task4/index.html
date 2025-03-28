@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pure CSS Dropdown Menu</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="menu-bar"/>
+            <label for="menu-bar" id="icon">Menus</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <input type="checkbox" id="menu1">
+                        <label for="menu1" id="Menu1">Features</label>
+                        <ul class="submenu1">
+                            <li><a href="#">SubMenu 1</a></li>
+                            <li>
+                                <input type="checkbox" id="nestedmenu">
+                                <label for="nestedmenu" id="Nestedmenu">SubMenu 2</label>
+                                <ul class="nestedmenu-list">
+                                    <li><a href="#">NestedMenu 1</a></li>
+                                    <li><a href="#">NestedMenu 2</a></li>
+                               </ul>
+                            </li>
+                            <li><a href="#">SubMenu 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="menu2">
+                        <label for="menu2" id="Menu2">Settings</label>
+                        <ul class="submenu2">
+                            <li><a href="#">SubMenu 1</a></li>
+                            <li><a href="#">SubMenu 2</a></li>
+                            <li><a href="#">SubMenu 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+</html>

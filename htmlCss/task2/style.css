@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;  /*Ensures consistent element sizing.*/
+}
+
+body{
+    display: flex;
+    height: 100vh; /* Viewport Height */
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+    height: 360px;
+    overflow: hidden;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease,box-shadow 0.3s ease 0.05s;
+    /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.797), 0 8px 20px 0 rgba(239, 0, 0, 0.916);*/
+} 
+#Card-img{
+   width: 90%; /*custmoized manually by seeing*/
+   height: 50%; /*custmoized manually by seeing*/
+   object-fit: cover;
+   border-radius: 8px;
+   align-self: center; /*specifies for the selected item(#Card-img) */
+}
+#Card-content{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.card-container:hover{
+    transform: scale(1.2)translatez(100px); /* Moves the box towards me and scale it big*/
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.797), 0 8px 20px 0 rgba(239, 0, 0, 0.916);
+    /*Color of shadow set manually using palette*/
+}

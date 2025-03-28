@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;  /*Ensures consistent element sizing.*/
+    margin:0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: grey;
+    color: black;
+    padding: 0 7%;
+}
+a{
+    text-decoration: none;
+}
+/* Menu */
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+     position: relative;
+     float: left;
+}
+
+header .navbar ul li a,#Menu1,#Menu2,#Nestedmenu{
+    display: block;
+    padding: 20px;
+    color: black;
+}
+header .navbar ul li a:hover ,#Menu1:hover,#Menu2:hover,#Nestedmenu:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Submenu */
+/* Here I used opacity and visibility instead of "display:none" because transistion won't work display property*/
+header .navbar ul li ul{
+    position: absolute;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    pointer-events: none;
+    background-color: grey;
+    transition: transform 0.3s ease,opacity 0.3s ease;
+
+    /* display: none; */
+}
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid lightcyan;
+}
+
+/* Nested menu */
+header .navbar ul li ul li ul{
+    left: 205px;
+    top: 0;
+}
+
+header .navbar ul li:hover >ul{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+    pointer-events: auto;
+    
+    /* display: initial; */
+}
+input,#icon{
+    display: none;
+    cursor: pointer;
+}
+#Menu1,#Menu2,#Nestedmenu{
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    #icon{
+        display: block;
+    }
+    header{
+        padding: 20px;
+    }
+    header .navbar{
+        /* Have to align it to the header ancestor */
+        position: absolute;
+
+        /* 100% top from header */
+        top: 100%; left: 0; right: 0;
+        border-top: 1px solid lightcyan;
+        
+        /* Based on checkbox */
+        display: none;
+    }
+    header .navbar ul li{
+        width: 100%;
+    }
+    /* sub menus */
+    header .navbar ul li ul{
+        /* Have to align it from original position */
+        position:relative;
+        width: 100%;
+        display: none;
+    }
+    /* Nested menu */
+    header .navbar ul li ul li ul{
+          display: none;
+          width: 100%;
+          left: 0;
+    }
+    
+    /* If menubar label checked/clicked it will be initialized in its default place */
+    #menu-bar:checked ~ .navbar,
+    #menu1:checked ~ .submenu1,
+    #menu2:checked ~ .submenu2,
+    #nestedmenu:checked ~ .nestedmenu-list{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: none;
+        transform: none;
+    }
+}
