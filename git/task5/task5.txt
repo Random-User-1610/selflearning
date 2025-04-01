@@ -1,1 +1,14 @@
 minor change
+
+git rebase -i HEAD~2   // to clean up the last 2 commits
+
+pick d22090c commiting empty task5 file
+pick be9c0f6 commiting minor change on task5 file
+
+will squash the second commit 
+
+pick d22090c commiting empty task5 file
+squash be9c0f6 commiting minor change on task5 file
+
+
+// enter a new commit message and close the file
