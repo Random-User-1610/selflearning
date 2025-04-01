@@ -1,0 +1,23 @@
+git checkout -b branch1
+git checkout main
+
+git checkout -b branch2
+git checkout branch1
+
+echo "This is branch1 modification" > conflict.txt
+git add conflict.txt
+git commit -m "Modified conflict.txt in branch1"
+
+git checkout branch2
+echo "This is branch2 modification" > conflict.txt
+git add conflict.txt
+git commit -m "Modified conflict.txt in branch2"
+
+git checkout branch2
+git merge branch1
+
+
+git checkout main
+git add .
+git commit -m "resolved conlicts"
+git push
