@@ -1,0 +1,9 @@
+git log -oneline // to list the commits in a branch 
+
+//copy the hash of the commit that needs to be applied to branch2 from current baranch (branch1)
+
+git checkout branch2
+
+git cherry-pick "commit hash"
+
+git push origin branch2
