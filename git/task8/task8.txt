@@ -1,0 +1,13 @@
+Before any commit, run a script that:
+    Runs a linter or unit test and aborts the commit if anything fails.
+
+//commands
+
+
+cd .git\hooks
+notepad pre-commit     // add script 
+chmod +x pre-commit       // makes the file executable
+git add .
+git commit -m "Test"      // will trigger hook
+
+
