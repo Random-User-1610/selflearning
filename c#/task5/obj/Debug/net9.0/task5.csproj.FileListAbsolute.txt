@@ -1,0 +1,15 @@
+D:\selflearning\c#\task5\bin\Debug\net9.0\task5.exe
+D:\selflearning\c#\task5\bin\Debug\net9.0\task5.deps.json
+D:\selflearning\c#\task5\bin\Debug\net9.0\task5.runtimeconfig.json
+D:\selflearning\c#\task5\bin\Debug\net9.0\task5.dll
+D:\selflearning\c#\task5\bin\Debug\net9.0\task5.pdb
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.GeneratedMSBuildEditorConfig.editorconfig
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.AssemblyInfoInputs.cache
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.AssemblyInfo.cs
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.csproj.CoreCompileInputs.cache
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.sourcelink.json
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.dll
+D:\selflearning\c#\task5\obj\Debug\net9.0\refint\task5.dll
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.pdb
+D:\selflearning\c#\task5\obj\Debug\net9.0\task5.genruntimeconfig.cache
+D:\selflearning\c#\task5\obj\Debug\net9.0\ref\task5.dll

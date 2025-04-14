@@ -1,0 +1,15 @@
+D:\selflearning\c#\task1\FactorialApp\bin\Debug\net9.0\FactorialApp.exe
+D:\selflearning\c#\task1\FactorialApp\bin\Debug\net9.0\FactorialApp.deps.json
+D:\selflearning\c#\task1\FactorialApp\bin\Debug\net9.0\FactorialApp.runtimeconfig.json
+D:\selflearning\c#\task1\FactorialApp\bin\Debug\net9.0\FactorialApp.dll
+D:\selflearning\c#\task1\FactorialApp\bin\Debug\net9.0\FactorialApp.pdb
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.AssemblyInfoInputs.cache
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.AssemblyInfo.cs
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.csproj.CoreCompileInputs.cache
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.sourcelink.json
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.dll
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\refint\FactorialApp.dll
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.pdb
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\FactorialApp.genruntimeconfig.cache
+D:\selflearning\c#\task1\FactorialApp\obj\Debug\net9.0\ref\FactorialApp.dll
