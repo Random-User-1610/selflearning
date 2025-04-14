@@ -40,8 +40,18 @@ function Quiz(){
         CurrIndex++;
     }
     else{
+        let message = "";
+
+        if (mark < ArrayObject.length/2) {
+            message = "<h2>lol you failed </h2>";
+        } 
+        else {
+            message = "<h2>Hmm , Dont u habe anything better to do</h2>";
+        }
+
         container.innerHTML = `
-                <h2>Congratulations!! You completed the quiz...</h2>
+                
+                ${message}
                 <p>Your Score is ${mark} out of ${ArrayObject.length}</p>`;
         CurrIndex = 0;
         mark = 0;

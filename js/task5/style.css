@@ -4,7 +4,7 @@
     padding: 0;
 }
 .header{
-    background-color: antiquewhite;
+    background-color: rgb(199, 44, 44);
     padding: 30px;
     text-align: center;
 }
@@ -30,7 +30,7 @@ button:hover{
 }
 
 .content{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: 400px;
     position: absolute;
     left: 37%;

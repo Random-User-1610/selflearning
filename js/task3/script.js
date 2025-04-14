@@ -4,31 +4,28 @@ var modalImage = document.getElementById("modal-img");
 let imgNum= 0;
 
 function openModal(n){
-     Modal.style.visibility = "visible";
-     Modal.style.opacity = 1;
-     modalImage.src = `assets/${n}.jpg`; 
-     imgNum = n;
+    Modal.style.visibility = "visible";
+    Modal.style.opacity = 1;
+    modalImage.src = `assets/s${n}.jpg`; 
+    imgNum = n;
 }
-function closeModal(){
-    Modal.style.opacity = 0;
-    setTimeout(()=>{
-        Modal.style.visibility= "hidden";
-    },300);
-}
+
 function next(){
-    imgNum++;
-    if(imgNum==5){
-        imgNum=1;
-    }
-    modalImage.src = `assets/${imgNum}.jpg`;
+   imgNum++;
+   if(imgNum == 5){
+       imgNum = 1;
+   }
+   modalImage.src = `assets/s${imgNum}.jpg`;
 }
+
 function prev(){
-    imgNum--;
-    if(imgNum==0){
-        imgNum=4;
-    }
-    modalImage.src = `assets/${imgNum}.jpg`;
+   imgNum--;
+   if(imgNum == 0){
+       imgNum = 4;
+   }
+   modalImage.src = `assets/s${imgNum}.jpg`;
 }
+
 
 console.log(document.querySelectorAll(".open")); 
 
